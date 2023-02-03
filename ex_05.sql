@@ -1,0 +1,1 @@
+select lastname as "Nom de l' utilisateur", email as "Adresse mail" from user where substring(email,-3) = ".fr";

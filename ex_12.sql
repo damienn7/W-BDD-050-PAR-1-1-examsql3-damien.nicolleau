@@ -1,0 +1,1 @@
+select distinct substring(zipcode,-(length(zipcode)),2) as "Departement", count(zipcode) as "Nombre d' utilisateur" from user group by zipcode;

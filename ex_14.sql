@@ -1,0 +1,2 @@
+select MD5(substring(title,-(length(title)),5)) as "Titre MD5",m.id as "ID" ,if((m.id%2=0),upper(g.name),g.name) as "
+GENRE" from movie as m join movie_genre as mg on mg.id_movie=m.id join genre as g on g.id=mg.id_genre;

@@ -1,0 +1,1 @@
+select distinct reverse(country) as "Nom de ville inverse" from user;

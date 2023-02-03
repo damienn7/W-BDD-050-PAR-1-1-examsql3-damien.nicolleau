@@ -1,0 +1,1 @@
+select count(title) as "Nombre de films" from movie;

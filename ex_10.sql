@@ -1,0 +1,1 @@
+select name as "Nom de l'abonnement", round(price/duration,2) as "Prix a la journee" from subscription;

@@ -1,0 +1,1 @@
+select title as "title", director as "director" from movie limit 100;

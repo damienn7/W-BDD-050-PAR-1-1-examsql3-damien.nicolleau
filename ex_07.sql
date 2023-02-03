@@ -1,0 +1,1 @@
+select count(title) as 'Nombre de films commencant par "Mo"' from movie where substring(title,-(length(title)),2) = "Mo";

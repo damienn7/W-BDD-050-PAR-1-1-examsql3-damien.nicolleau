@@ -1,0 +1,1 @@
+select distinct if(count(lastname) > 1, lastname,'') as "Nom de famille", if(count(lastname) > 1, count(lastname),'') as "Nombre de membres" from user group by lastname;
